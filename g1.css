@@ -1,0 +1,23 @@
+
+p{
+	color: red;
+	font: 50px;
+}
+section{
+	align: center;
+	width: 500px;
+     height: 300px;
+     
+     -webkit-box-reflect: below 5px linear-gradient(to bottom,rgba(0, 0, 0,0) 60%,rgba(0, 0, 0,.4))   
+ }
+ h1{
+ 	color: greenyellow;
+ }
+ .circle{
+    animation: rotateHue 1s alternate infinite;
+ }
+ @keyframes rotateHue{
+    to{
+        filter: hue-rotate(1turn);
+    }
+ }
